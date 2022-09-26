@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import {
   AppBar,
   Box,
@@ -7,11 +7,11 @@ import {
   List,
   ListItem,
   ListItemText,
-} from "@mui/material";
-import map from "icons/map.svg";
-import { grey } from "theme/colors";
+} from "@mui/material"
+import map from "icons/map.svg"
+import { grey } from "theme/colors"
 
-const navItems = ["Бренды", "Доставка", "Возврат", "Документация", "Контакты"];
+const navItems = ["Бренды", "Доставка", "Возврат", "Документация", "Контакты"]
 
 export const TopHeader = () => {
   return (
@@ -42,5 +42,5 @@ export const TopHeader = () => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
