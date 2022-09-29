@@ -14,6 +14,7 @@ import orderIcon from "icons/order.svg"
 import basketIcon from "icons/basket.svg"
 import { MenuIcon, SearchIcon } from "icons"
 import { PrimaryButtonIcon } from "../Button/Button"
+import { LogoIcon } from "../../assets/icons"
 
 const stylesButton = {
   bgcolor: yellow[500],
@@ -70,13 +71,7 @@ export const MiddleHeader = () => {
     <Box py={2}>
       <Container sx={{ maxWidth: "1160px" }}>
         <Box display="flex" alignItems="center" justifyContent="space-between">
-          <Box
-            component="img"
-            src={logo}
-            alt="StroykaStore"
-            width={180}
-            height={46}
-          />
+          <LogoIcon />
           <Box display="flex">
             <Box display="flex" alignItems="center">
               <PrimaryButtonIcon icon={<MenuIcon />}>Каталог</PrimaryButtonIcon>

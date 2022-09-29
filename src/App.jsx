@@ -1,21 +1,23 @@
-import { Container } from "@mui/material"
+import { Box } from "@mui/material"
 import { Header } from "components"
-import { ProductList } from "./components/ProductList/ProductList"
-import { SliderMain } from "./components/SliderHomePage/SliderHomePage"
+import { Route, Routes } from "react-router-dom"
+import { Footer } from "./components"
+import { Delivery } from "./pages/Delivery/Delivery"
+import { Home } from "./pages/Home/Home"
+
+const NotFound = () => <h1>tets</h1>
 
 function App() {
   return (
-    <div className="App">
+    <Box className="App">
       <Header />
-      <SliderMain />
-      <Container sx={{ maxWidth: "1160px" }}>
-        <ProductList />
-        <ProductList />
-        <ProductList />
-        <ProductList />
-        <ProductList />
-      </Container>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/delivery" element={<Delivery />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Footer />
+    </Box>
   )
 }
 
