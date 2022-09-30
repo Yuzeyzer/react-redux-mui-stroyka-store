@@ -5,15 +5,11 @@ import { setProductsByDiscountAsync } from "../actions"
 
 export const ProductsByDiscount = () => {
   const dispatch = useDispatch()
-  const { items, isLoading } = useSelector((state) => state.productsByDiscount)
+  const { items } = useSelector((state) => state.productsByDiscount)
 
   useEffect(() => {
     dispatch(setProductsByDiscountAsync())
   }, [])
 
-  return (
-    <div>
-      <ProductList btnText="Все Акции" title="Акции" items={items} />
-    </div>
-  )
+  return <ProductList btnText="Все Акции" title="Акции" items={items} />
 }

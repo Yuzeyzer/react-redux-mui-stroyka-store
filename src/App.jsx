@@ -2,6 +2,7 @@ import { Box } from "@mui/material"
 import { Header } from "components"
 import { Route, Routes } from "react-router-dom"
 import { Footer } from "./components"
+import { Brands } from "./pages/Brands/Brands"
 import { Delivery } from "./pages/Delivery/Delivery"
 import { Home } from "./pages/Home/Home"
 
@@ -14,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/delivery" element={<Delivery />} />
+        <Route path="/brands" element={<Brands />} />
+        {/* <Route path="/docs" element={<Documentation />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

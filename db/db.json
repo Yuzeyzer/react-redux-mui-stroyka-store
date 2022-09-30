@@ -73,5 +73,72 @@
       "name": "Акции против Лукашенко в мире",
       "category": 1
     }
+  ],
+  "list": [
+    {
+      "letter": "A",
+      "items": [
+        "ASB-Woodline",
+        "AVS",
+        "Alma Ceramica",
+        "Alvaro-Banos",
+        "Am.Pm",
+        "Apecs",
+        "Appetite",
+        "Attribute",
+        "Auto Standart",
+        "Axima",
+        "Azario"
+      ]
+    },
+    {
+      "letter": "B",
+      "items": [
+        "BLB",
+        "BOYSCOUT",
+        "BRAVAT",
+        "Belani",
+        "Belezza",
+        "Belinka",
+        "Blocker",
+        "Bosch",
+        "Bostik",
+        "Braver",
+        "Bussare"
+      ]
+    },
+    {
+      "letter": "C",
+      "items": ["Cemmix", "Ceramica Konskie", "Ceresit"]
+    },
+    {
+      "letter": "А",
+      "items": [
+        "АНИ",
+        "АСБ - Мебель",
+        "Авангард",
+        "Аист",
+        "Аквафор",
+        "Альпа",
+        "Алюмет",
+        "Арей",
+        "Артекс",
+        "Астрохим"
+      ]
+    },
+    {
+      "letter": "Б",
+      "items": [
+        "Банные штучки",
+        "Барьер",
+        "Белвинил",
+        "Брянские обои",
+        "Бытпласт"
+      ]
+    },
+    {
+      "letter": "Г",
+      "items": ["Гипрофи"]
+    }
   ]
 }
